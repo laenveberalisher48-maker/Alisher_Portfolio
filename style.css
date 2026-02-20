@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #333;
+}
+
+/* Шапка сайта */
+header {
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+/* Подзаголовок */
+.slogan {
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+/* Основной контент */
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 25px;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+/* Секции */
+section {
+    margin-bottom: 35px;
+}
+
+/* Блок "Обо мне" */
+.about {
+    text-align: center;
+}
+
+.about img {
+    border-radius: 50%;
+    margin-bottom: 15px;
+    width: 150px;
+    height: 150px;
+}
+
+/* Заголовки */
+h2 {
+    color: #1f3c4a;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #2c3e50;
+}
+
+/* Списки */
+ul {
+    padding-left: 20px;
+}
+
+/* Контакты */
+.contacts p {
+    margin: 6px 0;
+}
+
+/* Подвал */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    margin-top: 40px;
+}
